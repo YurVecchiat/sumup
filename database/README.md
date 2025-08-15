@@ -1,8 +1,36 @@
-This folder collects information on the database built for the case study.
+# Database Information for Case Study
 
-The database has 2 schema, which are represented in the two folders:
-  1. **csv** → the three tables collecting raw data from the csv shared. It collect the create statements for the three tables part of the schema
-  2. **cleaned** → data model built to analyse the data provided and get the insights as part of the case study. The cleaned folder has 3 sub folders
-          - **bulk_upload** → collect _bulk_upload_ queries of the table part of the schema
-          - **refresh**  → collect _refresh_ queries of the table part of the schema
-          - **tables**  → collect create statement of the tables part of the schema the schema
+This folder contains information on the database created for the case study. 
+The database was built in Snowflake using the 30-day trial version.
+The database has two schemas, represented in the two main folders of this repository:
+
+<details>
+  <summary><strong>📁 cleaned</strong></summary>
+
+  - Contains table built from the csv files shared used for analysis and generating insights for the case study.
+  - The folder is organized into three subfolders:
+    <details>
+      <summary>📁 bulk_upload</summary>
+      Stores bulk upload queries for the tables in this schema.
+    </details>
+
+    <details>
+      <summary>📁 refresh</summary>
+      Stores refresh queries for the tables in this schema.
+    </details>
+
+    <details>
+      <summary>📁 tables</summary>
+      Stores `CREATE` statements for the tables in this schema.
+    </details>
+
+</details>
+
+<details>
+  <summary><strong>📁 csv</strong></summary>
+
+  - Contains three tables that store raw data from the provided CSV files.
+  - Includes `CREATE` statements for each of the three tables in a .sql file.
+
+</details>
+
