@@ -1,14 +1,17 @@
 # Database Information for Case Study
 
-This folder contains information on the database created for the case study. 
-The database was built in Snowflake using the 30-day trial version.
-The database has two schemas, represented in the two main folders of this repository:
+This folder contains details about the database created for the case study.  
+The database was built in Snowflake using the 30-day trial version.  
+It has two schemas, represented by the two main folders in this repository:
+
+<br>
 
 <details>
   <summary><strong>📁 cleaned</strong></summary>
 
-  - Contains table built from the csv files shared used for analysis and generating insights for the case study.
-  - The folder is organized into three subfolders:
+  - Contains tables built from the CSV files provided, used for analysis and generating insights.  
+  - This folder is organized into three subfolders:
+
     <details>
       <summary>📁 bulk_upload</summary>
       Stores bulk upload queries for the tables in this schema.
@@ -21,16 +24,19 @@ The database has two schemas, represented in the two main folders of this reposi
 
     <details>
       <summary>📁 tables</summary>
-      Stores `CREATE` statements for the tables in this schema.
+      Stores CREATE statements for the tables in this schema.
     </details>
 
 </details>
 
+<br>
+
 <details>
   <summary><strong>📁 csv</strong></summary>
 
-  - Contains three tables that store raw data from the provided CSV files.
-  - Includes `CREATE` statements for each of the three tables in a .sql file.
+  - Contains three tables storing raw data from the provided CSV files.  
+  - Includes CREATE statements for each table in a `.sql` file.
 
 </details>
 
+<br>
