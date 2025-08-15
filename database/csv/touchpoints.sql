@@ -8,5 +8,5 @@ create or replace TABLE SUMUP.CSV.TOUCHPOINTS (
 	TP_REASON VARCHAR(16777216), -- The general reason for the customer's contact.
 	TP_REASON_DETAIL VARCHAR(16777216) -- A more specific description of the reason for the customer'scontact.
 )
-	comment = 'Table containing information about the productive hours worked by SumUp's customer support agents.'
+	comment = 'Table containing information about the productive hours worked by SumUps customer support agents.'
   ;
