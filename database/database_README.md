@@ -9,7 +9,7 @@ It has two schemas, represented by the two main folders in this repository:
 <details>
   <summary><strong>📁 cleaned</strong></summary>
 
-  - Contains tables built from the CSV files provided, used for analysis and generating insights.  
+  - Contains tables built in the database created from the CSV files provided, used for analysis and generating insights.  
   - This folder is organized into three subfolders:
 
     <details>
@@ -31,10 +31,12 @@ It has two schemas, represented by the two main folders in this repository:
 
 <br>
 
+
+
 <details>
   <summary><strong>📁 csv</strong></summary>
 
-  - Contains three tables storing raw data from the provided CSV files.  
+  - Contains the tables built in the database storing raw data from the provided CSV files.  
   - Includes CREATE statements for each table in a `.sql` file.
 
 </details>
