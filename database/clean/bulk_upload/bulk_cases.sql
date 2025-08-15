@@ -61,7 +61,9 @@ SELECT
     DATEDIFF(SECOND, c.ADJUSTED_ESCALATED_AT, c.FIRST_REPLY_AT) <= 21600 AS FRT_SLA_MET_FLG,
 
     -- Flag if agent replied within scheduled work day
-    s.AGENT IS NOT NULL AS FRT_IN_SCHEDULE_FLG
+    s.AGENT IS NOT NULL AS FRT_IN_SCHEDULE_FLG,
+
+    current_timestamp()
 
 FROM adjusted_cases c
 
