@@ -6,5 +6,5 @@ create or replace TABLE SUMUP.CSV.CASES (
 team.
 	FIRST_REPLY_AT TIMESTAMP_NTZ(9) -- The date and time when the elite squad team first replied to the case
 )
-	comment = 'Table containing information about cases that were escalated to SumUp's elite squad team.'
+	comment = 'Table containing information about cases that were escalated to SumUps elite squad team.'
 ;
