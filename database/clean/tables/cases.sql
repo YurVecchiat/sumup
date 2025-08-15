@@ -10,6 +10,7 @@ CREATE OR REPLACE TABLE SUMUP.CLEAN.CASES (
     FRT_SEC                INTEGER,      -- First response time in seconds (from adjusted escalation time)
     FRT_SLA_MET_FLG        BOOLEAN,      -- Flag indicating if first response met SLA (≤ 6 hours)
     FRT_IN_SCHEDULE_FLG    BOOLEAN       -- Flag indicating if the first response was within the agent's scheduled work hours
+    ELT_INSERT_TIMESTAMP   TIMESTAMP     -- When the row was inserted
 )
     comment = 'Table containing case metrics with adjusted escalations and SLA flags for SumUps elite customer support'
 ;
