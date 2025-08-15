@@ -2,6 +2,9 @@
 
 This folder contains details about the database created for the case study.  
 The database was built in Snowflake using the 30-day trial version.  
+
+<img width="309" height="346" alt="image" src="https://github.com/user-attachments/assets/243c4c64-f235-45da-b1e8-da6d78688145" />
+
 It has two schemas, represented by the two main folders in this repository:
 
 <br>
